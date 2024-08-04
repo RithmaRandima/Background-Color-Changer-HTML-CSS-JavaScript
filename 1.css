@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.changer-btn {
+  padding: 14px 36px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 11px;
+  transition: all 200ms;
+}
+
+.changer-btn:hover {
+  box-shadow: 1px 1px 2px black;
+}
+
+.change-color {
+  text-transform: uppercase;
+  font-size: 34px;
+}
